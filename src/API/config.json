@@ -1,0 +1,6 @@
+{
+  "signUpAPI": "http://178.128.233.31/frontend/signup",
+  "signInAPI": "http://178.128.233.31/frontend/login",
+  "forgotPasswordAPI": "http://178.128.233.31/frontend/reset_password",
+  "userDataAPI": "http://178.128.233.31/frontend/user_data/"
+}
