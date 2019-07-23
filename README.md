@@ -1,5 +1,22 @@
 # frontend-app
-Frontend App build using react js
+Summary
+-------
+This is my firts commit on this repository. It originally belongs to https://github.com/MarkdaleMGMT/frontend-app
+
+Functionality Added
+-------------------
+1) Validation on Signup, Signin and Forgotpassword pages.
+2) Added login and logout functionality.
+3) Mitigated back paging bug.(Issue: When you click on back button after logout it was letting user signed in automatically.) 
+
+config.json file
+----------------
+==> I added config.json file which contains all the API Urls so it is now easy to change API urls, an admin just have to change that url at one place (ex. singleton approach) 
+
+validate.js file
+----------------
+==> I added validate.js file which contains validation functions and its exported in all the pages. It prevents rewriting the same code in all pages.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
