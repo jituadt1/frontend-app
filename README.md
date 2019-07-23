@@ -3,6 +3,16 @@ Summary
 -------
 This is my firts commit on this repository. It originally belongs to https://github.com/MarkdaleMGMT/frontend-app
 
+Notes & Issues: 
+----
+1) Backend server only allows default credentials for login which are,
+   Username: admin
+   Password: admin 
+2) I didnt develope jwt(Json web token) approach for session creation because backend server doesnt returns any jwt token except (ref_code). 
+3) I used 'user-date API' to access the ref-code but it only returns ref-code when username is admin so i will have to make some changes when it gets fixed.
+4) On sign up page you have to use ref-code of admin which is : 21232 otherwise it wont let you sign up (backend functionlity)
+  Although, it returns a new ref-code when user successfully signs up but again in login process it only allows default credentials. 
+
 Functionality Added
 -------------------
 1) Validation on Signup, Signin and Forgotpassword pages.
