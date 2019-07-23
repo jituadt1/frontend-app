@@ -7,7 +7,7 @@ Functionality Added
 -------------------
 1) Validation on Signup, Signin and Forgotpassword pages.
 2) Added login and logout functionality.
-3) Mitigated back paging bug.(Issue: When you click on back button after logout it was letting user signed in automatically.) 
+3) Mitigated back paging bug.(Issue: When any user clicks on back button after logout it was letting user signed in automatically.) 
 
 config.json file
 ----------------
